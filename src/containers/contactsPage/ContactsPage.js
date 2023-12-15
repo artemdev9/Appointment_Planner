@@ -32,7 +32,7 @@ export const ContactsPage = (props) => {
         setDuplicate(true);
       }
     });
-  }, [name]);
+  }, [name, contact]);
 
   return (
     <div>
